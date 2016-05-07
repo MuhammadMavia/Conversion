@@ -1,0 +1,116 @@
+body{
+    background: #292f29;
+    color: aliceblue;
+}
+h1{
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 100px 30px #46d62c;
+    font-style: italic;
+    font-family: sans-serif;
+    margin-top: 0px;
+    padding-top: 20px;
+    height: 100px;
+    text-align: center;
+    font-size: 70px;
+    background: #368312;
+    color: aliceblue;
+}
+select{
+    background: #368312;
+    font-style: italic;
+    font-family: serif;
+    color: aliceblue;
+    border: none;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    overflow: hidden;
+    -moz-overflow-x: hidden;
+    border-radius: 20px;
+    position: absolute;
+    font-size: 30px;
+    -moz-transition: All;
+    -moz-transition-delay: 500ms;
+    transition: All;
+    transition-duration:500ms;
+}
+select:hover{
+    height: 241px;
+}
+option{
+    box-shadow: inset 0px 0px 50px 15px #46d62c;
+    height: 50px;
+    padding-top: 8px;
+    background: #368312;
+    border-bottom: solid 1px aliceblue;
+}
+option:hover{
+    color: #368312;
+    background: aliceblue;
+}
+
+#select{
+    margin-top: 30px;
+    text-align: center;
+}
+#tmpOne{
+    margin-left: -200px;
+}
+b{
+    margin: 20px;
+    font-size: 45px;
+    font-style: italic;
+}
+#valueShow{
+    height: 20px;
+    margin-left: 30px;
+    font-style: italic;
+    font-family: serif;
+}
+
+
+#input{
+    text-align: center;
+}
+input{
+    overflow: hidden;
+    background: aliceblue;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border: none ;
+    margin-right: -2px;
+    border-radius: 20px 0px 0px 20px;
+}
+input:focus{
+    box-shadow: inset 0px 0px 47px 5px #46d62c;
+    background: aliceblue;
+    overflow: hidden;
+}
+button{
+    box-shadow: inset 0px 0px 25px 8px #46d62c;
+    font-style: italic;
+    font-family: serif;
+    color: aliceblue;
+    background: #368312;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    height: 42px;
+    width: 100px;
+    transition: All;
+    transition-duration:500ms;
+    border-radius: 0px 20px 20px 0px;
+}
+button:hover{
+    margin-left: 0;
+    height: 42px;
+    width: 120px;
+}
+#ans{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+}

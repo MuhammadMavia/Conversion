@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversion</title>
+    <link href="Conversion.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Conversion</h1>
+        <div id="valueShow">
+            <span id="s1"></span><span id="s2"></span>
+        </div>
+        <div id="select">
+            <select id="tmpOne" onchange="$1()" size="2">
+                <option id="c1">Select</option>
+                <option>Kelvin</option>
+                <option>Celsius</option>
+                <option>Fahrenheit</option>
+            </select><b>to</b>
+            <select id="tmpTwo" onchange="$2()" size="3">
+                <option id="c2">Select</option>
+                <option>Kelvin</option>
+                <option>Celsius</option>
+                <option>Fahrenheit</option>
+            </select>
+        </div><br>
+        <div id="input">
+            <input id="askTmp" type="number" placeholder="Temperature">
+            <button onclick="toConvert()">Convert</button>
+        </div>
+    <h2 id="ans"></h2>
+<script type="text/javascript" src="Conversion.js"></script>
+</body>
+</html>
